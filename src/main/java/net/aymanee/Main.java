@@ -1,4 +1,4 @@
-package net.youssfi;
+package net.aymanee;
 
 /**
  * @author ${USER}
