@@ -19,7 +19,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
-      <module name="account-service" options="" />
+      <module name="account-service" options="-parameters" />
       <module name="config-service" options="" />
       <module name="customer-service" options="" />
       <module name="discovery-service" options="" />

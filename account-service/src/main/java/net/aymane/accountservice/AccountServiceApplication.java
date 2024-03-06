@@ -5,7 +5,6 @@ import net.aymane.accountservice.entities.BankAccount;
 import net.aymane.accountservice.enums.AccountStatus;
 import net.aymane.accountservice.enums.AccountType;
 import net.aymane.accountservice.repository.BankAccountRepository;
-import net.aymane.customerservice.config.GlobalConfig;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -18,7 +17,7 @@ import java.util.UUID;
 
 @SpringBootApplication
 @EnableFeignClients
-@EnableConfigurationProperties({GlobalConfig.class})
+@EnableConfigurationProperties
 public class AccountServiceApplication {
 
     public static void main(String[] args) {
